@@ -1,0 +1,121 @@
+body {
+  background-image: url("../images/background.gif");
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #330000;
+}
+
+#wrapper {
+  width: 70%;
+  background-color: #ffffcc;
+  margin: auto; 
+  text-align: left; 
+}
+
+header h1 {
+  background-color: #ccaa66;
+  text-align: center;
+  margin: 0;
+}
+
+.content-area{
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+nav {
+  flex: 1;
+  background-color: #f3e5ab;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -20px; /* pull it up */
+}
+
+nav a {
+  margin: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #330000;
+}
+
+nav a:link {
+  color: #996633;
+}
+
+nav a:visited {
+  color: #ccaa66;
+}
+
+nav a:hover {
+  color: #330000;
+}
+
+
+.main-content {
+  flex: 10;
+  padding: 10px;
+}
+
+.main-content .row {
+  display: flex;  
+  gap: 50px;            
+}
+
+footer {
+  background-color: #ccaa66;
+  font-size: 0.8em;
+  text-align: center;
+  font-style: italic;
+}
+
+footer a {
+  text-decoration: none;
+  color: #330000;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+h3 {
+  background-color: #ccaa66;
+  text-align: left;
+  width: 100%; 
+  display: block; 
+}
+
+table tr:nth-of-type(odd) {
+background-color: #ccaa66;
+}
+
+.application-buttons{
+  margin-left: 120px;
+}
+
+#applicationForm label {
+  display: inline-block;
+  width: 120px;      
+  text-align: right;
+  vertical-align: top;
+}
+
+#name, #email, #experience{
+  width: 50%;
+}
+
+#experience {       
+  height: 150px;}
+
+#button{
+  background-color: #330000;
+  border-radius: 5px;
+  color: #f3e5ab;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#button:hover{
+  background-color: #f3e5ab;
+  color: #330000;
+  font-weight: bold;
+}

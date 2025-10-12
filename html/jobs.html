@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaJam Coffee House</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../images/favicon.ico">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>
+                <img src="../images/javalogo.gif" alt="JavaJam Coffee House">
+            </h1>
+        </header>
+        <main class="content-area">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="music.html">Music</a>
+                <a href="jobs.html">Jobs</a>
+            </nav>
+            <section class="main-content">
+                <p>
+                    Want to work at JavaJam? Fill out the form below to start your application. Required fields are
+                    marked
+                    with an asterisk *.
+                </p>
+                <form id="applicationForm" action="acknowledge.html" method="get">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>*<br><br>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>*<br><br>
+
+                    <label for="experience">Experience</label>
+                    <textarea id="experience" name="experience" required></textarea>*<br><br>
+                    <div class="application-buttons">
+                    <input type="submit" id="button" value="Apply now">
+                    <input type="reset" id="button" value="Cancel">
+                    </div>
+                </form>
+
+
+            </section>
+        </main>
+
+        <footer>
+            Copyright &copy; 2025 JavaJam Coffee House <br>
+            <a href="mailto:yourfirstname@yourlastname.com">yourfirstname@yourlastname.com</a>
+        </footer>
+    </div>
+</body>
+
+</html>
